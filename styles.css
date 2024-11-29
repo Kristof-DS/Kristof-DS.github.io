@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.super {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: underline red;
+  text-decoration-thickness: 2px;
+  font-style: italic;
+}
+
+.board {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.restart {
+  margin-top: 20px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: orange;
+  border: red solid 1px;
+  box-shadow: 2px 2px 5px 1px;
+  font-size: larger;
+  font-weight: 500;
+  font-style: oblique;
+}
+.restart:hover {
+  background-color: rgb(255, 190, 111);
+  transition: 0.2s;
+}
+.restart:active {
+  box-shadow: 1px 1px;
+  transform: perspective();
+}
+
+h2 {
+  font-size: 60px;
+  font-family: sans-serif;
+  color: rgb(255, 48, 48);
+}
+
+.message {
+  color: darkgreen;
+}
+
+.tic {
+  color: rgb(255, 99, 99);
+}
+
+.tac {
+  color: green;
+}
+
+.toe {
+  color: orange;
+}
